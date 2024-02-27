@@ -53,11 +53,11 @@ export default function OurPeople() { // Match the function name with the file n
           </div>
         </div>
       </div>
-      <div className="bottom-element">
+      {/* <div className="bottom-element">
         <img src="/images/audio.svg" alt="" />
         <img className='scroll' src="/images/scroll.svg" alt="" />
         <div></div>
-      </div>
+      </div> */}
     </div>
   )
 }

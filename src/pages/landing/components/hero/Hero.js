@@ -1,6 +1,8 @@
 import React from 'react'
 import styles from "./hero.module.scss"
 
+import { Link } from 'react-router-dom';
+
 export default function Hero() { // Match the function name with the file name
   return (
     <div id= {styles.hero}>
@@ -11,10 +13,10 @@ export default function Hero() { // Match the function name with the file name
         </div>
         <div className="nav-link">
           <div className="nav-links">
-            <div className="single-link">Home</div>
-            <div className="single-link">About</div>
-            <div className="single-link">Portfolio</div>
-            <div className="single-link">Contacts</div>
+            <Link to="/" className="single-link">Home</Link>
+            <Link to="/about" className="single-link">About</Link>
+            <Link to="/portfolio" className="single-link">Portfolio</Link>
+            <Link to="/contact" className="single-link">Contacts</Link>
           </div>
           <div className="menu">
             <img src="/images/menu.svg" alt="" />
