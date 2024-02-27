@@ -1,0 +1,65 @@
+import React from 'react'
+import styles from "./landing/components/hero/hero.module.scss";
+
+import { Link } from 'react-router-dom';
+
+export default function AboutPage() { // Match the function name with the file name
+  return (
+    <div id= {styles.hero}>
+      {/* <video src="./"></video> */}
+      <div className="navbar">
+        <div className="logo">
+          <img src="/images/620ee9ebd09e86f4214b6816_PNG W (1)-p-800.png" alt="logo" />
+        </div>
+        <div className="nav-link">
+          <div className="nav-links">
+            <Link to="/" className="single-link">Home</Link>
+            <Link to="/about" className="single-link">About</Link>
+            <Link to="/portfolio" className="single-link">Portfolio</Link>
+            <Link to="/contact" className="single-link">Contacts</Link>
+          </div>
+          <div className="menu">
+            <img src="/images/menu.svg" alt="" />
+          </div>
+        </div>
+      </div>
+      <div className="body">
+        <div className="left-body">
+          <div className="date">
+            02/04
+          </div>
+          <div className="box-title">
+            <img src="images/mach-logo.png" alt="" />
+            <div className="title">Match My Impact</div>
+          </div>
+          <div className="subtitle">
+              Match My Impact is a global initiative designed to reduce carbon emission by planting 1 million trees across the world. In partnership with Burna Boy, we have created a one-stop shop for a global fan initiative complete with a carbon footprint reduction goal, direct fan experiences,
+          </div>
+          <div className="learn-more">learn more</div>
+        </div>
+        <div className="points">
+          <div className="point">
+            <div className="point-circle"></div>
+          </div>
+          <div className="point">
+            <div className="point-circle"></div>
+          </div>
+          <div className="point">
+            <div className="point-circle"></div>
+          </div>
+          <div className="point-active">
+            <div className="point-circle"></div>
+          </div>
+          <div className="point">
+            <div className="point-circle"></div>
+          </div>
+        </div>
+      </div>
+      <div className="bottom-element">
+        <img src="/images/audio.svg" alt="" />
+        <img className='scroll' src="/images/scroll.svg" alt="" />
+        <div></div>
+      </div>
+    </div>
+  )
+}
