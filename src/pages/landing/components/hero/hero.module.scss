@@ -6,6 +6,7 @@
     :global {
         color: $white;
         background-image: url("../../../../../public/images/Venturee0060000-0140.svg");
+        // background-color: $black;
         // min-width: 100vw;
         min-height: 89.4vh;
         display: flex;
@@ -92,8 +93,8 @@
                 .learn-more{
                     display: flex;
                     flex-direction: row;
-                    justify-content: baseline;
-                    color: aliceblue;
+                    gap: 20px;
+
                 }
 
             }

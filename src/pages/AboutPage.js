@@ -25,15 +25,12 @@ export default function AboutPage() { // Match the function name with the file n
       </div>
       <div className="body">
         <div className="left-body">
-          <div className="date">
-            02/04
-          </div>
           <div className="box-title">
-            <img src="images/mach-logo.png" alt="" />
-            <div className="title">Match My Impact</div>
+            {/* <img src="images/mach-logo.png" alt="" /> */}
+            <div className="title">Our People</div>
           </div>
           <div className="subtitle">
-              Match My Impact is a global initiative designed to reduce carbon emission by planting 1 million trees across the world. In partnership with Burna Boy, we have created a one-stop shop for a global fan initiative complete with a carbon footprint reduction goal, direct fan experiences,
+          Our people are our strength, bringing decades of experience and expertise across all sectors and institutions across world at the forefront work we do.
           </div>
           <div className="learn-more">
             <div className='pica'>
