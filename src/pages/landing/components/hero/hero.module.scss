@@ -1,6 +1,7 @@
 @import "/src/sass/fonts/mixins.scss";
 @import "/src/sass/fonts/variables.scss";
 
+
 #hero{
     :global {
         color: $white;
@@ -87,6 +88,12 @@
                         font-style: normal;
                         text-align: left;
                         color: $gray;
+                }
+                .learn-more{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: baseline;
+                    color: aliceblue;
                 }
 
             }

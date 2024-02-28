@@ -35,7 +35,20 @@ export default function AboutPage() { // Match the function name with the file n
           <div className="subtitle">
               Match My Impact is a global initiative designed to reduce carbon emission by planting 1 million trees across the world. In partnership with Burna Boy, we have created a one-stop shop for a global fan initiative complete with a carbon footprint reduction goal, direct fan experiences,
           </div>
-          <div className="learn-more">learn more</div>
+          <div className="learn-more">
+            <div className='pica'>
+              <img src='/images/pica.png' alt='pica'/>
+              <div className='picbox'></div>
+            </div>
+            <div className='picb'>
+              <img src='/images/picb.png' alt='picb'/>
+              <div className='picbox'></div>
+            </div>
+            <div className='picc'>
+              <img src='/images/picc.png' alt='picc'/>
+              <div className='picbox'></div>
+            </div>
+          </div>
         </div>
         <div className="points">
           <div className="point">
