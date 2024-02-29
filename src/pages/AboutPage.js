@@ -27,23 +27,21 @@ export default function AboutPage() { // Match the function name with the file n
         <div className="left-body">
           <div className="box-title">
             {/* <img src="images/mach-logo.png" alt="" /> */}
-            <div className="title">Our People</div>
+            <div className="title">We are 2035 ventures</div>
           </div>
           <div className="subtitle">
-          Our people are our strength, bringing decades of experience and expertise across all sectors and institutions across world at the forefront work we do.
+          We represent diverse instutions whose interest falls within African and Black commuunities both in Africa, and across the diaspora. Driving Impact, Sustainable Communities and Innovation at the forefront of our Governments, Multinational, NGOs and individual partners across the globe.
           </div>
           <div className="learn-more">
             <div className='pica'>
-              <img src='/images/pica.png' alt='pica'/>
-              <div className='picbox'></div>
+              <div className="subtitle">
+                 We represent diverse instutions whose interest falls within African and Black commuunities both in Africa, and across the diaspora. Driving Impact, Sustainable Communities and Innovation at the forefront of our Governments, Multinational, NGOs and individual partners across the globe.
+               </div>
             </div>
             <div className='picb'>
-              <img src='/images/picb.png' alt='picb'/>
-              <div className='picbox'></div>
-            </div>
-            <div className='picc'>
-              <img src='/images/picc.png' alt='picc'/>
-              <div className='picbox'></div>
+            <div className="subtitle">
+                 We represent diverse instutions whose interest falls within African and Black commuunities both in Africa, and across the diaspora. Driving Impact, Sustainable Communities and Innovation at the forefront of our Governments, Multinational, NGOs and individual partners across the globe.
+               </div>
             </div>
           </div>
         </div>

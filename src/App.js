@@ -4,8 +4,8 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Landing from './pages/landing/Landing';
 
 import AboutPage from './pages/AboutPage';
-import PortfolioPage from './pages/PortfolioPage'; // Make sure to create this component
-import ContactPage from './pages/ContactPage'; // Make sure to create this component
+import PortfolioPage from './pages/PortfolioPage'; // Make sure to create this component Mwana wa
+import ContactPage from './pages/ContactPage'; 
 
 const App = () => {
   return (
