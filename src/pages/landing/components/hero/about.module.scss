@@ -1,0 +1,147 @@
+@import "/src/sass/fonts/mixins.scss";
+@import "/src/sass/fonts/variables.scss";
+
+
+#hero{
+    :global {
+        color: $white;
+        // background-image: url("../../../../../public/images/Venturee0060000-0140.svg");
+        background-color: $black;
+        // min-width: 100vw;
+        min-height: 89.4vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: pxToVw(50) pxToVw(100) pxToVw(50) pxToVw(100);
+
+        .navbar{
+            display: flex;
+            justify-content: space-between;
+
+            .logo{
+                img{
+                    height: 80px;
+                    width: auto;
+                }
+            }
+            .nav-link{
+                gap: pxToVw(83);
+                display: flex;
+                align-items: center;
+                .nav-links{
+                    gap: pxToVw(37);
+                    display: flex;
+                    .single-link{
+                        font-family: $sf-pro-regular;
+                        font-size: pxToEm(15px);
+                        font-weight: normal;
+                        font-style: normal;
+                        text-align: left;
+                        color: $white;
+                    }
+                }
+
+            }
+        }
+
+        .body{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            // max-width: 38.4;
+            .left-body{
+                display: flex;
+                flex-direction: column;
+                gap: pxToVw(37);
+                max-width: 38.4%;
+                margin: 7%;
+
+                .date{
+                    font-family: $sf-pro-regular;
+                        font-size: pxToEm(20px);
+                        font-weight: bold;
+                        font-style:normal;
+                        text-align: left;
+                        // letter-spacing: 430px;
+                        color: $white;
+                }
+                .box-title{
+                    display: flex;
+                    flex-direction: row;
+                    gap: pxToVw(45);
+                    img{
+                        border-radius: 14px;
+                    }
+                    .title{
+                        font-family:$sf-pro-bold;
+                            font-size: 40px;
+                            font-weight: 500;
+                            font-style: normal;
+                            text-align: left;
+                            color: $white;
+                    }
+                }
+                .subtitle{
+                    font-family: $sf-pro-regular;
+                        font-size: 21px;
+                        font-weight: normal;
+                        line-height: 27.299999237060547px;
+                        font-style: normal;
+                        text-align: left;
+                        color: $gray;
+                }
+                .learn-more{
+                    display: flex;
+                    flex-direction: row;
+                    gap: 20px;
+
+                }
+
+            }
+
+            .point-circle{
+                width: 9px;
+                height: 9px;
+                background: $white;
+                border-radius: 50%;
+                // aspect-ratio: 1/1;
+            }
+            .point-active{
+                width: 21px;
+                height: 21px;
+                background: transparent;
+                border: 1px solid $white;
+                display: grid;
+                place-items: center;
+                border-radius: 50%;
+            }
+            .points{
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                justify-content: center;
+                align-items: center;
+                // gap: 30px;
+                margin-top: 30px;
+            }
+
+        }
+
+        .bottom-element{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            img{
+                // position: absolute;
+                    // width: auto;
+                    // height: pxToEm(59px);
+                
+                    border-color: $white;
+                    border-width: 1vh;
+                    // border-style: solid;
+                    // border-radius: 2vw;
+            }
+        }
+
+    }
+}

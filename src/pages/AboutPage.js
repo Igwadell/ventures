@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from "./landing/components/hero/hero.module.scss";
+import styles from "./landing/components/hero/about.module.scss";
 
 import { Link } from 'react-router-dom';
 
